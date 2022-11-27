@@ -1,4 +1,67 @@
-* {
+*{
 	border: 1px dashed red;
-	min-height: 10px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*body{
+	display: flex;
+
+	
+}
+
+.instagram_post{
+	display:flex;
+	margin: auto;
+}*/
+
+.header{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tag{
+	margin-top: 20px;
+	padding:10px;
+}
+
+.nombre{
+	margin-top:  0px;
+}
+
+.button{
+	width: 500px;
+	margin-left: 72%;
+}
+
+.dot {
+	height: 2px;
+	width: 8px;
+	background-color: rgb(12, 11, 11);
+	border-radius: 50%;
+	display:block;
+	margin-top: 2px;
+
+  }
+
+.imagen{
+	margin: 0 auto;
+	width: 300;
+	height:150;
+
+}
+ .imagen img{
+	width: 100%;
+	height: 100%;
+
+}
+
+.social{
+	display: flex;
+}
+
+.boton_tag{
+	margin-left: 72%;
 }
